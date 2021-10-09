@@ -6,7 +6,7 @@
     <link rel="icon" href="favicon.svg">
     <meta name="description" content="Hikari Kanauchi Portforio">
     <link rel="stylesheet" href="css/styles.css">
-
+    
 </head>
 <body>
     <header>
@@ -23,50 +23,66 @@
                 </p>
             </div>
         </div>
-    </header>
-
-    <section class="works">
-        <!--作品紹介-->
-        <h1>WORKS</h1>
         
-        <section>
-            <video src="mov/pavetheway.mov" alt="Pave the Wayの紹介動画" controls></video>
-            <h1><a href="https://unityroom.com/games/pavetheway">Pave the Way</a></h1>
-            <p>様々なギミック設置して、操作できないプレイヤーをゴールまで連れて行くパズルゲーム
-            </p>
-
-        </section>
+    </header>
+    <div class='body'>
+        <section class="works">
+            <!--作品紹介-->
+            <h1>WORKS</h1>
+            
+            <section>
+                <video src="mov/pavetheway.mov" alt="Pave the Wayの紹介動画" controls></video>
+                <h1><a href="https://unityroom.com/games/pavetheway">Pave the Way</a></h1>
+                <p>様々なギミック設置して、操作できないプレイヤーをゴールまで連れて行くパズルゲーム
+                </p>
     
-        <section>
-            <video src="mov/stealthmouse.mov" poster='img/work2.png' alt="Stealth Mouseの紹介動画" controls></video>
-            <h1><a href="https://unityroom.com/games/stealth_mouse">Stealth Mouse</a></h1>
-            <p>ネズミになって人間と猫から逃げつつ家の中に散らばったチーズを集める3Dゲーム</p>
-
-        </section>
+            </section>
+        
+            <section>
+                <video src="mov/stealthmouse.mov" poster='img/work2.png' alt="Stealth Mouseの紹介動画" controls></video>
+                <h1><a href="https://unityroom.com/games/stealth_mouse">Stealth Mouse</a></h1>
+                <p>ネズミになって人間と猫から逃げつつ家の中に散らばったチーズを集める3Dゲーム</p>
     
-        <section>
-            <img src="img/work3.png" alt="Navi Mapの紹介画像">
-            <h1><a href="https://kanaupi.github.io/NaviMap/">Navi Map</a></h1>
-            <p>出発点と目的地、任意の経由地を入力して経由地を最適に回る道順でルート、距離、車でかかる時間を出力します。</p>
-
+            </section>
+        
+            <section>
+                <img src="img/work3.png" alt="Navi Mapの紹介画像">
+                <h1><a href="https://kanaupi.github.io/NaviMap/">Navi Map</a></h1>
+                <p>出発点と目的地、任意の経由地を入力して経由地を最適に回る道順でルート、距離、車でかかる時間を出力します。</p>
+    
+            </section>
+    
+            <section>
+                <video src="mov/trem_home.mov" width="400" height="400" alt="TREM!の紹介動画" controls></video>
+                <h1><a href="https://yurudjan-trem.herokuapp.com/">TREM!</a></h1>
+                <p>自分の推しコンテンツを共有する専用のSNS、「ユーザー同士が友達の部屋に遊びに行ったり、自分の部屋を訪問してもらう感覚で」というコンセプトで作成</p>
+                <p>楽天のサマーインターンにて9日間で企画し開発しました。個人的にはバックエンドとしてdjangoでコンテンツ詳細・登録機能、アイコン作成など担当</p>
+    
+            </section>
+    
         </section>
-
-        <section>
-            <video src="mov/trem_home.mov" width="400" height="400" alt="TREM!の紹介動画" controls></video>
-            <h1><a href="https://yurudjan-trem.herokuapp.com/">TREM!</a></h1>
-            <p>自分の推しコンテンツを共有する専用のSNS、「ユーザー同士が友達の部屋に遊びに行ったり、自分の部屋を訪問してもらう感覚で」というコンセプトで作成</p>
-            <p>楽天のサマーインターンにて9日間で企画し開発しました。個人的にはバックエンドとしてdjangoでコンテンツ詳細・登録機能、アイコン作成など担当</p>
-
-        </section>
-
-    </section>
-    <!-- <section class="skills"> -->
-        <!--スキル紹介-->
-        <!-- <h1>SKILLS</h1> -->
-    <!-- </section> -->
-
+        <!-- <section class="skills"> -->
+            <!--スキル紹介-->
+            <!-- <h1>SKILLS</h1> -->
+        <!-- </section> -->
+    
+    </div>
+    
     <footer>
     </footer>
-
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
+    <script>
+        bubbly({
+            colorStart: '#e5e5e5',
+            colorStop: '#e5e5e5',
+            bubbles:400,
+            blur:1,
+            compose: 'source-over',
+            bubbleFunc:() => `hsla(${200 + Math.random() * 50}, 100%, 50%, .3)`,
+            angleFunc:() => Math.random() > 0.5 ? Math.PI : 2 * Math.PI,
+            velocityFunc:() => 1 + Math.random() * 1,
+            radiusFunc:() => Math.random() * 5
+        });
+      </script> -->
 </body>
 </html>
