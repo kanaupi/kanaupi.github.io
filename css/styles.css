@@ -105,6 +105,9 @@ header{
 .works p{
     line-height: 1.8;
 }
+.skill{
+    font-weight: bold;
+}
 
 .skills{
     width:60%;
